@@ -33,30 +33,31 @@ export function HomePage() {
           </h2>
           <p className="max-w-2xl text-slate-300 sm:text-lg">
             Connect React Router, TanStack Query, and Express REST APIs to
-            surface courses, auth, and protected dashboard views.
+            surface blog content, ebook offers, and protected dashboard
+            experiences.
           </p>
           <div className="flex flex-col gap-4 sm:flex-row">
             <Link
-              to="/courses"
+              to="/blog"
               className="rounded-lg bg-cyan-500 px-5 py-3 text-sm font-semibold text-slate-950 transition hover:bg-cyan-400"
             >
-              Browse courses
+              Read the blog
             </Link>
             <Link
-              to="/dashboard"
+              to="/ebooks"
               className="rounded-lg border border-slate-700 px-5 py-3 text-sm text-slate-100 transition hover:border-slate-500"
             >
-              Go to dashboard
+              Browse ebooks
             </Link>
           </div>
         </div>
         <div className="rounded-3xl border border-slate-800 bg-slate-900/80 p-8">
           <h3 className="text-xl font-semibold text-white">
-            Live API-backed screen
+            Live content experience
           </h3>
           <p className="mt-4 text-slate-300">
-            The courses page now loads from `/api/courses`, with loading, error,
-            and empty UI states powered by TanStack Query.
+            The blog and ebook pages are the current product focus, backed by
+            our React frontend and Express API.
           </p>
         </div>
       </div>
